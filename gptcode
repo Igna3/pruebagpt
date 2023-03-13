@@ -1,52 +1,87 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Remeras a la moda</title>
-</head>
-<body>
-	<header>
-		<h1>Remeras a la moda</h1>
-		<nav>
-			<ul>
-				<li><a href="#">Inicio</a></li>
-				<li><a href="#">Catálogo</a></li>
-				<li><a href="#">Contacto</a></li>
-			</ul>
-		</nav>
-	</header>
-	<main>
-		<section>
-			<h2>Nuestras remeras</h2>
-			<p>Ofrecemos una amplia variedad de remeras de alta calidad para hombres, mujeres y niños. Todas nuestras remeras están fabricadas con materiales duraderos y cómodos.</p>
-			<p>¡Compra ahora y obtén un 10% de descuento en tu primer pedido!</p>
-		</section>
-		<section>
-			<h2>Destacados</h2>
-			<ul>
-				<li>
-					<h3>Remera clásica para hombres</h3>
-					<p>Esta remera de algodón 100% es perfecta para cualquier ocasión. Disponible en varios colores y tamaños.</p>
-					<p><strong>Precio: $20</strong></p>
-					<button>Agregar al carrito</button>
-				</li>
-				<li>
-					<h3>Remera con estampado para mujeres</h3>
-					<p>Esta remera de manga corta presenta un estampado vibrante y divertido. Disponible en varios diseños y tamaños.</p>
-					<p><strong>Precio: $25</strong></p>
-					<button>Agregar al carrito</button>
-				</li>
-				<li>
-					<h3>Remera para niños</h3>
-					<p>Esta remera de manga corta es perfecta para los más pequeños. Disponible en varios colores y tamaños.</p>
-					<p><strong>Precio: $15</strong></p>
-					<button>Agregar al carrito</button>
-				</li>
-			</ul>
-		</section>
-	</main>
-	<footer>
-		<p>© 2023 Remeras a la moda. Todos los derechos reservados.</p>
-	</footer>
-</body>
+  <head>
+    <title>Nombre de la marca de ropa</title>
+    <link rel="stylesheet" href="estilos.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Hombre</a></li>
+          <li><a href="#">Mujer</a></li>
+          <li><a href="#">Niños</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <main>
+      <section class="destacados">
+        <h2>Lo más destacado</h2>
+        <ul>
+          <li>
+            <a href="#">
+              <img src="imagen1.jpg" alt="Producto destacado">
+              <h3>Nombre del producto</h3>
+              <p>Precio del producto</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="imagen2.jpg" alt="Producto destacado">
+              <h3>Nombre del producto</h3>
+              <p>Precio del producto</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="imagen3.jpg" alt="Producto destacado">
+              <h3>Nombre del producto</h3>
+              <p>Precio del producto</p>
+            </a>
+          </li>
+        </ul>
+      </section>
+      
+      <section class="productos">
+        <h2>Todos los productos</h2>
+        <ul>
+          <li>
+            <a href="#">
+              <img src="imagen4.jpg" alt="Producto">
+              <h3>Nombre del producto</h3>
+              <p>Precio del producto</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="imagen5.jpg" alt="Producto">
+              <h3>Nombre del producto</h3>
+              <p>Precio del producto</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="imagen6.jpg" alt="Producto">
+              <h3>Nombre del producto</h3>
+              <p>Precio del producto</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="imagen7.jpg" alt="Producto">
+              <h3>Nombre del producto</h3>
+              <p>Precio del producto</p>
+            </a>
+          </li>
+        </ul>
+      </section>
+    </main>
+    
+    <footer>
+      <p>Derechos reservados © 2023</p>
+    </footer>
+  </body>
 </html>
-
