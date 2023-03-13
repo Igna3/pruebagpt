@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Remeras a la moda</title>
+</head>
+<body>
+	<header>
+		<h1>Remeras a la moda</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Inicio</a></li>
+				<li><a href="#">Catálogo</a></li>
+				<li><a href="#">Contacto</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section>
+			<h2>Nuestras remeras</h2>
+			<p>Ofrecemos una amplia variedad de remeras de alta calidad para hombres, mujeres y niños. Todas nuestras remeras están fabricadas con materiales duraderos y cómodos.</p>
+			<p>¡Compra ahora y obtén un 10% de descuento en tu primer pedido!</p>
+		</section>
+		<section>
+			<h2>Destacados</h2>
+			<ul>
+				<li>
+					<h3>Remera clásica para hombres</h3>
+					<p>Esta remera de algodón 100% es perfecta para cualquier ocasión. Disponible en varios colores y tamaños.</p>
+					<p><strong>Precio: $20</strong></p>
+					<button>Agregar al carrito</button>
+				</li>
+				<li>
+					<h3>Remera con estampado para mujeres</h3>
+					<p>Esta remera de manga corta presenta un estampado vibrante y divertido. Disponible en varios diseños y tamaños.</p>
+					<p><strong>Precio: $25</strong></p>
+					<button>Agregar al carrito</button>
+				</li>
+				<li>
+					<h3>Remera para niños</h3>
+					<p>Esta remera de manga corta es perfecta para los más pequeños. Disponible en varios colores y tamaños.</p>
+					<p><strong>Precio: $15</strong></p>
+					<button>Agregar al carrito</button>
+				</li>
+			</ul>
+		</section>
+	</main>
+	<footer>
+		<p>© 2023 Remeras a la moda. Todos los derechos reservados.</p>
+	</footer>
+</body>
+</html>
